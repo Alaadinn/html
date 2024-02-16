@@ -1,0 +1,56 @@
+#body1{
+	background-image:url(../image/coupe.png);
+}
+div{
+	
+  background-color: #FFF0F5;
+  animation-name: example;
+  animation-duration: 10s ;
+  position: relative;
+  border: 1px solid black;
+  transform: translate(30%,15%);
+  padding: 10px;
+  width: 500px;
+  height: 430px;
+  text-align: center;
+}
+#h1{
+	 font-family: "Open Sans", sans-serif;
+  color: #FF1493;
+
+}
+#body2{
+	background-image: url(../image/img.jpg);
+	background-repeat: no-repeat;
+	background-size: 1800px
+}
+#h2{
+	font-family: "Open Sans", sans-serif;
+  color:#00FFFF
+}
+#btn{
+  position: relative;
+  top: 37px;
+  left: 157px;
+  height: 30px;
+  width: 520px;
+
+}
+#btn:hover{
+  padding: 0.5%;
+  background-color: aqua;
+  color: black;
+}
+.btnlog{
+  position: relative;
+  top: 293px;
+  left: -10px;
+  height: 30px;
+  width: 520px;
+
+}
+.btnlog:hover{
+  padding: 0.5%;
+  background-color: aqua;
+  color: black;
+}

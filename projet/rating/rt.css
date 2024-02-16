@@ -1,0 +1,92 @@
+*{
+margin: 0;
+padding: 0;
+box-sizing: border-box;
+}
+body{
+background-color: peru;
+}
+.deux{
+position: absolute;
+top: 75%;
+left: 80%;
+transform: translate(-50% , -50%);
+
+}
+.centre{
+position: absolute;
+top: 75%;
+left: 20%;
+transform: translate(-50% , -50%);
+}
+.img1{
+height: 300px;
+width: 500px;
+transform: translate( 20px , 80px);
+}
+.ti1{
+transform: translate(180px , 100px);
+color: red;
+}
+.img2{
+height: 300px;
+width: 500px;
+transform: translate( 920px , -260px);
+}
+.ti2{
+transform: translate(1150px , -240px);
+color: red;
+}
+.deux .stars,
+.centre .stars{
+ height: 150px;
+ width: 500px;
+ background: #FAFAD2 ;
+ text-align: center;
+ transform: translate(10px , 80px);
+}
+.stars input{
+display: none;
+}
+.stars label {
+float: right;
+font-size: 100px;
+
+color: lightgrey;
+margin: 0 5px;
+text-shadow: 1px 1px #bbb;
+}
+
+.stars label:before{
+content: '★';
+}
+.stars input:checked ~ label {
+color: gold;
+text-shadow: 1px 1px #c60;
+}
+.stars:not(:checked) > label:hover ,
+.stars:not(:checked) > label:hover ~ label{
+color: gold;
+}
+.nav{
+    background-color:rgb(68, 6, 6);
+    height: 50px;
+}
+.btn{
+    position: relative;
+    left: 670px;
+    top: 20%;
+    height: 30px;
+    width: 80px;
+    background-color: aliceblue;
+    color: rgb(27, 14, 1);
+}
+.btn:hover{
+padding: 0.5%;
+background-color: rgb(202, 202, 18);
+color: rgb(21, 21, 108);
+}
+
+
+
+
